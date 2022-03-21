@@ -1,3 +1,4 @@
+# CSC slide generator
 ## A recipe for the preparation of [reveal.js-powered](https://github.com/hakimel/reveal.js/) HTML5 presentation
 
 ORIGINALLY FROM https://github.com/yetulaxman/recipe-slideprep
@@ -9,16 +10,17 @@ This repository enables the use of  the following plugins on the top of [CSC-cus
 * [Chalkboard](https://github.com/rajgoel/reveal.js-plugins/tree/master/chalkboard):
   Write on your slides or on a chalkboard
 
-One can generate HTML files from markdown files either in cPouta or Puhti or even on local desktop environment. Below is the description of minimal recipe on cPouta and Puhti environment.
+One can generate HTML files from markdown files either in cPouta or Puhti or even on local desktop environment. Below is the description of minimal recipe on cPouta/own computer and Puhti environment.
 
-### Create HTML file in cPouta environment using singularity
+### Create HTML file on own computer/ in cPouta environment using singularity
+(You will need to have [singularity](https://sylabs.io/guides/3.5/user-guide/quick_start.html) installed!) 
 
-1. Clone the current github repository in cPouta VM
+1. Clone the current github repository to your computer/cPouta VM
 
 ```
-git clone https://github.com/yetulaxman/recipe-slideprep.git
+git clone https://github.com/samumantha/EO_workshop.git
 ```
-2. Build (or download) singularity image 
+2. Build (or download, see below) singularity image 
 ```
 sudo singularity build slidefactory.simg slidefactory.def
 ```
@@ -40,8 +42,8 @@ Clone current github repository to Puhti (e.g., to some directory: /scratch/proj
 
 
 ```
-git clone https://github.com/yetulaxman/recipe-slideprep.git
-cd recipe-slideprep
+git clone https://github.com/samumantha/EO_workshop.git
+cd EO_workshop
 ```
 
 First, edit slurm batch script (slide_prep_puhti.sh) with your markdown file name (default: demo.md) and project information (an obligatory flag in slurm script)  and then run the script as below:
@@ -51,7 +53,7 @@ sbatch slide_prep_puhti.sh
 ```
 Please note that the HTML file created will have the same name as your markdown file.
 
-### Finally copy the directory of repository (along with newly generated HTML) to your local computer and then open your presentation:
+Finally, copy the directory of repository (along with newly generated HTML) to your local computer and then open your presentation:
 
 ```
 scp -r username@puhti.csc.fi:/path/of/directory/  .
