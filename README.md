@@ -4,8 +4,8 @@
 
 Assumption: Python 3.x with pip3 available
 
-1. get pandoc and install: https://pandoc.org/installing.html
-2.`pip3 install pandocfilters`; not sure if necessary, may come with pandoc
+* get pandoc and install: https://pandoc.org/installing.html
+* `pip3 install pandocfilters`; not sure if necessary, may come with pandoc
 
 ## Instructions to build slideset with CSC theme
 
