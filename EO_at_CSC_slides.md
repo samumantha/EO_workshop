@@ -1,46 +1,43 @@
---- 
-title: Earth Observation user workshop
-subtitle: online
-author: Samantha Wittke
-date: 16.05.22
+---
 lang: en
+theme: csc-2016
+title: Earth Observation user workshop
 ---
 
 # EO in CSC
 
----
+some text
+
+
 
 #  CSC resources available for EO 
 
----
+sopme text
+
+
+
 # CSC 
 
-<div class="column">
 * non-profit state enterprise with special tasks
 * owned by Finnish state (70%) and higher education institutions (30%)
 * headquaters in Keilaniemi, Espoo
 * side offices and supercomputers in Kajaani
-</div>
 
-<div class="column">
 
-  <img src="img/kajaani.png"> 
-
-</div>
----
 
 # CSC services
 
 [`research.csc.fi/en/service-catalog`](https://research.csc.fi/en/service-catalog)
 
-<br></br>
 <div class="column">
 **Compute & Analyze**
 
   - cPouta / ePouta
   - Puhti / Mahti / LUMI
   - Notebooks
+
 </div>
+
 <div class="column">
 **Store, Share & Publish Data**
 
@@ -48,9 +45,9 @@ lang: en
   * EUDAT
   * IDA
   * Paituli
+
 </div>
 
----
 
 # Why use CSC resources?
 
@@ -64,22 +61,22 @@ When own computer is not enough:
 * **Course computers** (same setup) -> Notebooks
 * It’s **free**! (for open science at Finnish university and state research institute users)
 
----
+
 
 # CSC expertise
 
-<div class="column">
+
 ...at your fingertips:
 
+<div class="column">
 [`docs.csc.fi`](https://docs.csc.fi)
 
 [`research.csc.fi`](https://research.csc.fi)
 
 </div>
+
 <div class="column">
 **\+ servicedesk@csc.fi**
-<br></br>
-
 * Geoinformatics team
 * Storage team
 * Supercomputer team
@@ -87,8 +84,6 @@ When own computer is not enough:
 * Accounts team
 * ...
 </div>
-
----
 
 # CSC projects
 
@@ -100,7 +95,6 @@ When own computer is not enough:
   
 Project members share resources, storage and computing storage
 
----
 
 # Billing Units (BU)
 
@@ -109,48 +103,42 @@ Project members share resources, storage and computing storage
 * Virtual Machine uptime
 * Allas storage amount and time
 
----
+
 
 # my.csc.fi
 
-<br></br>
-[`my.csc.fi`](https://my.csc.fi)
-<br></br>
 
----
+[`my.csc.fi`](https://my.csc.fi)
+
+
 
 # Software and data
 
 
 
----
+
 
 # Storage and sharing solutions 
 
-<br></br>
-[`research.csc.fi/storage`](https://research.csc.fi/storage)
-<br></br>
-[`paituli.csc.fi/`](https://paituli.csc.fi/)
-<br></br>
 
----
+[`research.csc.fi/storage`](https://research.csc.fi/storage)
+[`paituli.csc.fi/`](https://paituli.csc.fi/)
+
+
 
 # Computing solutions - Puhti
 
+
 <p align="center">
-  <img src="img/puhti_overview.png" width="50%"> 
+  <img src="images/puhti_overview.png" width="50%">
 </p>
 
----
+
 
 # Puhti webinterface demo
 
-<br></br>
+
 [`puhti.csc.fi`](https://puhti.csc.fi)
-<br></br>
-
-
----
 
 
 # Example batch job script:
@@ -171,15 +159,14 @@ srun python my_python_script.py input output
 
 ```
 
----
 
 # Computing resources for you*
 
 <p align="center">
-  <img src="img/puhti_pouta2.png" width="70%"> 
+  <img src="images/puhti_pouta2.png" width="50%">
 </p>
 
----
+
 
 # Getting started
 
@@ -190,7 +177,7 @@ srun python my_python_script.py input output
 
 * check our [tutorials](https://docs.csc.fi/support/tutorials/) and [geocomputing examples](https://github.com/csc-training/geocomputing)
 
----  
+  
 
 # Training
 
@@ -198,7 +185,7 @@ srun python my_python_script.py input output
 
 -> follow our [training calendar](https://www.csc.fi/en/training#training-calendar)
 
----
+
 
 # How we can help
 
@@ -210,20 +197,19 @@ srun python my_python_script.py input output
 * training/example wishes
 
 **-> servicedesk@csc.fi**
+</div>
 
+<div class="column">
 [Speed up your request](https://docs.csc.fi/support/support-howto/)
 
-</div>
-<div class="column">
 * Setting up pipelines, product provision, R&D, ...
 
 **-> CSC as project partner / subcontractor**
 </div>
 
 
----
 
-# Geoinformatics team { .author }
+# Geoinformatics team { .author } 
 
 | Kylli Ek
 | Samantha Wittke
@@ -231,4 +217,5 @@ srun python my_python_script.py input output
 
 giscoord@csc.fi
 
-![](img/geoinf_team.png)
+![](theme/csc-2016/img/csc-identicon.png)
+
