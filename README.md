@@ -13,5 +13,6 @@ Assumption: Python 3.x with pip3 available
 2. run `python3 convert.py <yourslideset.md>`
 3. Open created <yourslideset.html> with webbrowser, for linux `gio open <yourslideset.html>`
 
-
+Examples for slide content setup: https://github.com/csc-training/slide-template/blob/master/example.md?plain=1
+Also plain html works, eg for images.
 
