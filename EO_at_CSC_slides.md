@@ -1,19 +1,8 @@
 ---
 lang: en
 theme: csc-2016
-title: Earth Observation user workshop
+title: EO @ CSC
 ---
-
-# EO in CSC
-
-some text
-
-
-
-#  CSC resources available for EO 
-
-sopme text
-
 
 
 # CSC 
@@ -56,7 +45,7 @@ When own computer is not enough:
 * Resource needs (time (> 2 hours), memory (> 8 GB), storage (> 50GB))
 **-> Outsource computations, keep own computer free**
 
-
+* **Storing** and **sharing** data
 * **Server** needs -> cPouta
 * **Course computers** (same setup) -> Notebooks
 * It’s **free**! (for open science at Finnish university and state research institute users)
@@ -88,7 +77,7 @@ When own computer is not enough:
 # CSC projects
 
 * necessary for doing anything
-* needs 'PI'
+* needs '**P**rinciple **I**nvestigator'
 * PI applies for CSC project with
     * Billing units
     * services
@@ -103,20 +92,14 @@ Project members share resources, storage and computing storage
 * Virtual Machine uptime
 * Allas storage amount and time
 
-
-
 # my.csc.fi
-
 
 [`my.csc.fi`](https://my.csc.fi)
 
-
-
 # Software and data
 
-
-
-
+[List of Applications in Docs](https://docs.csc.fi/apps/#geosciences)
+[List of Geoscience data sets available from CSC computing environment](https://docs.csc.fi/data/datasets/spatial-data-in-csc-computing-env/)
 
 # Storage and sharing solutions 
 
