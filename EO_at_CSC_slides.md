@@ -85,13 +85,6 @@ When own computer is not enough:
 Project members share resources, storage and computing storage
 
 
-# Billing Units (BU)
-
-* per project
-* resources (CPU / GPU amount and time) on supercomputer
-* Virtual Machine uptime
-* Allas storage amount and time
-
 # my.csc.fi
 
 [`my.csc.fi`](https://my.csc.fi)
@@ -107,8 +100,6 @@ Project members share resources, storage and computing storage
 [`research.csc.fi/storage`](https://research.csc.fi/storage)
 [`paituli.csc.fi/`](https://paituli.csc.fi/)
 
-
-
 # Computing solutions - Puhti
 
 
@@ -116,39 +107,32 @@ Project members share resources, storage and computing storage
   <img src="images/puhti_overview.png" width="50%">
 </p>
 
-
-
 # Puhti webinterface demo
 
 
 [`puhti.csc.fi`](https://puhti.csc.fi)
 
+# Matlab
 
-# Example batch job script:
+Matlab parallel server (MPS)
+Matlab on own computer with own license
+parallel computing toolbox needed
+CSC has serverside toolbox
 
-```bash
+limited also available on Puhti webinterface
 
-#!/bin/bash 
-#SBATCH --job-name=myTest 
-#SBATCH --account=<project> 
-#SBATCH --time=02:00:00
-#SBATCH --cpus-per-task=4 
-#SBATCH --mem-per-cpu=2000 
-#SBATCH --partition=small
- 
-module load geoconda
+# Key to geocomputing
 
-srun python my_python_script.py input output
+Scripts!
+-> also increases reproducibility
 
-```
+# Approaching parallelization
 
+* software with inbuilt support
+* parallelization within Python (dask, multiprocessing, joblib) /R (future, snow, foreach)
+* GNU parallel, array jobs,...
 
-# Computing resources for you*
-
-<p align="center">
-  <img src="images/puhti_pouta2.png" width="50%">
-</p>
-
+# Data on Puhti/Allas
 
 
 # Getting started
@@ -190,6 +174,13 @@ srun python my_python_script.py input output
 **-> CSC as project partner / subcontractor**
 </div>
 
+
+# Summary
+
+Computing
+Storage
+Service
+Training
 
 
 # Geoinformatics team { .author } 

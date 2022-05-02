@@ -43,7 +43,7 @@ theme: csc-2016
 > considerations, more about what to think about than what are the different data available (for that they will have the tutorial material, to click around)
 
 # Where and how to get data?
-> FinHub and Mosaics presentation? + other options, considerations)
+> FinHub and Mosaics and Geocubes presentation? + other options, considerations), Paituli
 
 
 # How to process the data?
