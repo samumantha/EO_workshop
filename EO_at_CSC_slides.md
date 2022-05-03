@@ -1,6 +1,6 @@
 ---
 lang: en
-theme: csc-2016
+theme: csc-2019
 title: EO @ CSC
 ---
 
@@ -12,7 +12,11 @@ title: EO @ CSC
 * headquaters in Keilaniemi, Espoo
 * side offices and supercomputers in Kajaani
 
+# Geoportti and CSC
 
+* project partner
+* technical implementation
+* computing support
 
 # CSC services
 
@@ -24,6 +28,7 @@ title: EO @ CSC
   - cPouta / ePouta
   - Puhti / Mahti / LUMI
   - Notebooks
+  - Rahti
 
 </div>
 
@@ -115,11 +120,11 @@ Project members share resources, storage and computing storage
 # Matlab
 
 Matlab parallel server (MPS)
-Matlab on own computer with own license
-parallel computing toolbox needed
-CSC has serverside toolbox
+* Matlab on own computer with own license
+* parallel computing toolbox needed
+* CSC has serverside toolbox
 
-limited also available on Puhti webinterface
+Limited also available on Puhti webinterface
 
 # Key to geocomputing
 
@@ -133,6 +138,11 @@ Scripts!
 * GNU parallel, array jobs,...
 
 # Data on Puhti/Allas
+
+* almost all Paituli data also on Puhti 
+(Q: what open public datasets would be interesting to have?)
+* Sentinel-2 over agricultural Finland, growing season public on Allas
+* direct access to Allas without download with some tools
 
 
 # Getting started
