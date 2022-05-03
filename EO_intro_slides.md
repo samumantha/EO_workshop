@@ -19,7 +19,7 @@ theme: csc-2016
 
 * Introduction round
 * EO data and processing (general)
-* CSC resources for EO
+* CSC resources for EO; note on companies/non Fin research
 * Use cases of EO research using CSC resources
 * Discussion time / Ask us anything
 
@@ -28,6 +28,7 @@ theme: csc-2016
 * Who are you?
 * What is your research about?
 * What would you like to get from this workshop?
+
 
 
 # Getting started using EO 
