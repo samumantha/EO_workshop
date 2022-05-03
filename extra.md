@@ -1,4 +1,20 @@
 
+# CSC projects
+
+* necessary for doing anything
+* needs '**P**rinciple **I**nvestigator'
+* PI applies for CSC project with
+    * Billing units
+    * services
+  
+Project members share resources, storage and computing storage
+
+
+# my.csc.fi
+
+[`my.csc.fi`](https://my.csc.fi)
+
+
 
 # Example batch job script:
 

@@ -79,25 +79,18 @@ When own computer is not enough:
 * ...
 </div>
 
-# CSC projects
 
-* necessary for doing anything
-* needs '**P**rinciple **I**nvestigator'
-* PI applies for CSC project with
-    * Billing units
-    * services
-  
-Project members share resources, storage and computing storage
-
-
-# my.csc.fi
-
-[`my.csc.fi`](https://my.csc.fi)
 
 # Software and data
 
 [List of Applications in Docs](https://docs.csc.fi/apps/#geosciences)
+
+stored in modules, geoconda (Python, +), see previous talk 
+
 [List of Geoscience data sets available from CSC computing environment](https://docs.csc.fi/data/datasets/spatial-data-in-csc-computing-env/)
+
+see previous talk
+
 
 # Storage and sharing solutions 
 
@@ -131,11 +124,27 @@ Limited also available on Puhti webinterface
 Scripts!
 -> also increases reproducibility
 
+# EO Big data
+
+5V's
+-> parallelization!
+
 # Approaching parallelization
+
+-> domain decomposition <X,Y,Z,T,V>
 
 * software with inbuilt support
 * parallelization within Python (dask, multiprocessing, joblib) /R (future, snow, foreach)
 * GNU parallel, array jobs,...
+
+# Common EO challenges
+
+* mapsheets/tiles 
+-> "embarassingly parallel"
+* huge "dataframes"
+-> dask
+* moving data
+-> Allas
 
 # Data on Puhti/Allas
 
@@ -189,7 +198,7 @@ Scripts!
 
 Computing
 Storage
-Service
+Service/Help
 Training
 
 
