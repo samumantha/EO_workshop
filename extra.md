@@ -47,3 +47,25 @@ srun python my_python_script.py input output
 <p align="center">
   <img src="images/puhti_pouta2.png" width="50%">
 </p>
+
+# Matlab
+
+Matlab parallel server (MPS)
+* Matlab on own computer with own license
+* parallel computing toolbox needed
+* CSC has serverside toolbox
+
+Limited also available on Puhti webinterface
+
+# Storage and sharing solutions 
+
+
+[`research.csc.fi/storage`](https://research.csc.fi/storage)
+[`paituli.csc.fi/`](https://paituli.csc.fi/)
+
+# Data on Puhti/Allas
+
+* almost all Paituli data also on Puhti 
+(Q: what open public datasets would be interesting to have?)
+* Sentinel-2 over agricultural Finland, growing season public on Allas
+* direct access to Allas without download with some tools
