@@ -51,8 +51,10 @@ title: EO @ CSC
 Allas object storage
 
 * during project lifetime
+* CSC account and project required
 * access from other services and own computer
 * data is immutable
+* Maximum size for free: **200TB**
 
 [Allas and Geospatial data webinar](https://www.youtube.com/watch?v=mnFXe2-dJ_g)
 
@@ -109,7 +111,7 @@ When own computer is not enough:
 * parallelization
 * data availability (Paituli)
 
-**-> Outsource computations, keep own computer free**
+**-> Outsource heavy computations, keep own computer free**
 
 * It’s **free**! (for open science at Finnish higher education and state research institutes)
 
@@ -123,18 +125,9 @@ stored in modules, geoconda (Python, +)
 [List of Geoscience data sets available from CSC computing environment](https://docs.csc.fi/data/datasets/spatial-data-in-csc-computing-env/)
 
 
-# Approaching parallelization
-
--> domain decomposition <X,Y,Z,T,V>
-
-* software with inbuilt support (--cores, --cpus,...)
-* parallelization within Python (dask, multiprocessing, joblib) /R (future, snow, foreach)
-* GNU parallel, array jobs,...
-
-
 # Common EO challenges
 
-* mapsheets/tiles 
+* many tiles 
 -> "embarassingly parallel"
 * huge "dataframes"
 -> dask(Python)/future(R)
@@ -150,7 +143,6 @@ stored in modules, geoconda (Python, +)
 * Project
 * Resources
 * Services
-
 * [Find your account and project information](my.csc.fi)
 * [Read the docs](https://docs.csc.fi)
 * check our [tutorials](https://docs.csc.fi/support/tutorials/) and [geocomputing examples](https://github.com/csc-training/geocomputing)
@@ -213,9 +205,11 @@ stored in modules, geoconda (Python, +)
 
 | Kylli Ek
 | Samantha Wittke
+| Katri Tegel
 | CSC – IT Center for Science Ltd.
 
 giscoord@csc.fi
 
 ![](images/geoportti.png)
+
 
