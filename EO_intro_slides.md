@@ -11,14 +11,14 @@ theme: csc-2016
 
 * Let's discuss a lot
 * Many presentations, but please ask questions
-* Mentimeter
+* Mentimeter: www.menti.com; 2773 8461
 * Accessibility in hybrid event
 
 # Today
 
 * Introduction round
 * EO data and processing (general)
-* CSC resources for EO; note on companies/non Fin research
+* CSC resources for EO
 * Use cases of EO research using CSC resources
 * Discussion time / Ask us anything
 
