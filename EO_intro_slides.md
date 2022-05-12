@@ -11,7 +11,6 @@ theme: csc-2016
 
 * Let's discuss a lot
 * Many presentations, but please ask questions
-* HackMD (?)
 * Mentimeter
 * Accessibility in hybrid event
 
