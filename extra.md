@@ -6,6 +6,26 @@
 * parallelization within Python (dask, multiprocessing, joblib) /R (future, snow, foreach)
 * GNU parallel, array jobs,...
 
+# Parallel Geospatial software
+<div class="column">
+* SAGA GIS (some tools)
+* ArcGIS Pro 
+* GRASS
+* SNAP 
+</div>
+
+<div class="column">
+**Parallel libraries for Python**
+
+* dask
+* multiprocessing
+* joblib
+
+**Parallel libraries for R**
+* future
+* snow
+* foreach
+</div>
 
 # my.csc.fi
 

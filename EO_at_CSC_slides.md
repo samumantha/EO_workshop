@@ -78,6 +78,19 @@ Allas object storage
 * under own administration
 * ideal for webserver / databases
 
+# Why use Puhti?
+
+When own computer is not enough:
+
+* Resource needs (time (> 2 hours), memory (> 8 GB), storage (> 50GB))
+* prebuilt environments
+* parallelization
+* data availability (Paituli)
+
+**-> Outsource heavy computations, keep own computer free**
+
+* It’s **free**! (for open science at Finnish higher education and state research institutes)
+
 # Puhti supercomputer
 
 -> High Performance Computing
@@ -101,21 +114,6 @@ Main differences to laptop:
 
 [`puhti.csc.fi`](https://puhti.csc.fi)
 
-
-# Why use Puhti?
-
-When own computer is not enough:
-
-* Resource needs (time (> 2 hours), memory (> 8 GB), storage (> 50GB))
-* prebuilt environments
-* parallelization
-* data availability (Paituli)
-
-**-> Outsource heavy computations, keep own computer free**
-
-* It’s **free**! (for open science at Finnish higher education and state research institutes)
-
-
 # Software and data
 
 [List of Applications in Docs](https://docs.csc.fi/apps/#geosciences)
@@ -128,7 +126,7 @@ stored in modules, geoconda (Python, +)
 # Common EO challenges
 
 * many tiles 
--> "embarassingly parallel"
+-> "embarassingly parallel" -> Array jobs
 * huge "dataframes"
 -> dask(Python)/future(R)
 * data transfer
@@ -212,4 +210,25 @@ giscoord@csc.fi
 
 ![](images/geoportti.png)
 
+# Earth Observation Data Information extractor
 
+<div class="column">
+
+[Preprint](http://dx.doi.org/10.2139/ssrn.4067133), 
+[Gitlab](https://gitlab.com/fgi_nls/public/EODIE), 
+[Docs](https://eodie.readthedocs.io/)
+
+EODIE is a toolkit to extract object based timeseries information from Earth Observation data.
+
+* objects as polygons 
+* timeframe of interest 
+* features (eg vegetation indices) 
+ -> per polygon timeseries of the selected features over the timeframe of interest
+
+</div>
+
+<div class="column">
+
+![](images/EODIE_example.png)
+
+</div>
