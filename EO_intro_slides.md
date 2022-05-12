@@ -28,6 +28,7 @@ theme: csc-2016
 * Who are you?
 * What is your research about?
 * What would you like to get from this workshop?
+-> Mentimeter
 
 # Getting started using EO 
 
@@ -41,26 +42,65 @@ theme: csc-2016
 
 # EO data 
 
-> Poll: what type of EO data have you used? (multispectral, hyperspectral, LiDAR, RADAR, none, specify)
+> Poll: what type of EO data have you used? (optical multispectral, hyperspectral, LiDAR, RADAR, none, specify)
 
-# Multispectral / Hyperspectral
 
-# RADAR
+# EM Spectrum
 
-# LiDAR
+<p align="center">
+  <img src="images/EMS-Introduction_0.jpeg" width="50%">
+</p>
 
+> Credit: NASA science
+
+# Sensors
+
+<p align="center">
+  <img src="images/activePassive.png" width="50%">
+</p>
+
+> Credit: NASA science
+
+# Optical vs RADAR
+
+<p align="center">
+  <img src="images/fusion.jpg" width="50%">
+</p>
+
+> Credit: ESA Phi lab
+
+
+# Resolution
+
+Radiometric - Spectral - Temporal - Spatial/Geometric
+
+ <div class="row">
+  <div class="column">
+    <img src="images/radiometric_resolution.png" style="width:40%">
+  </div>
+  <div class="column">
+    <img src="images/spatial_resolution.jpg" style="width:40%">
+  </div>
+</div> 
+
+> Credit: NASA Earth Observatory images by Joshua Stevens, using Landsat data from the U.S. Geological Survey; NASA Earth Observatory
 
 ---
 
 # How to decide which data to use?
 
-# What information is needed?
+**What information is needed?**
 
-# Budget?
+* structural vs spectral characteristics
+* details
+* time series
 
-# Handling
+**Budget?**
 
-> considerations, more about what to think about than what are the different data available (for that they will have the tutorial material, to click around)
+**Handling**
+
+* experience 
+* pre-processing needs
 
 ---
 
@@ -75,6 +115,30 @@ theme: csc-2016
 # other "hubs"
 
 # Paituli
+
+* ~13 TB data
+* spatial data download service
+* some EO data products, possible reference data 
+* open to anyone, unrestricted access
+* includes historical versions of datasets
+* publish own geospatial datasets -> URN
+* webbased data preview
+* not limited to Finland
+* annual usage reports
+
+# Paituli access
+
+**OGC webservices:**
+
+* WMS (maps, map image for viewing)
+* WMTS (maptiles, map image tiles for viewing)
+* WFS (features; vector data)
+* WCS (coverage, raster data
+
+**Download:**
+
+* webinterface,
+* bulk download: http, ftp, rsync
 
 # download vs data and processing platforms
 
@@ -94,8 +158,6 @@ theme: csc-2016
 # CLI
 
 # Python/R/Julia/Matlab,...
-
-# Common tasks and how to do them?
 
 
 
