@@ -115,29 +115,15 @@ Radiometric - Spectral - Temporal - Spatial/Geometric
 
 # Paituli
 
-* ~13 TB data
+[www.paituli.csc.fi](https://paituli.csc.fi)
+
+* ~13 TB data with webbased data preview
 * spatial data download service
 * some EO data products, possible reference data 
 * open to anyone, unrestricted access
 * includes historical versions of datasets
-* publish own geospatial datasets -> URN
-* webbased data preview
 * not limited to Finland
-* annual usage reports
 
-# Paituli access
-
-**OGC webservices:**
-
-* WMS (maps, map image for viewing)
-* WMTS (maptiles, map image tiles for viewing)
-* WFS (features; vector data)
-* WCS (coverage, raster data
-
-**Download:**
-
-* webinterface,
-* bulk download: http, ftp, rsync
 
 # download vs data and processing platforms
 

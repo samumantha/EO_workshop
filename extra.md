@@ -103,6 +103,22 @@ ePouta for sensitive data → more strict network rules
 
 [www.paituli.csc.fi](https://paituli.csc.fi)
 
+* publish own geospatial datasets -> URN
+
+**Access**
+
+**OGC webservices:**
+
+* WMS (maps, map image for viewing)
+* WMTS (maptiles, map image tiles for viewing)
+* WFS (features; vector data)
+* WCS (coverage, raster data
+
+**Download:**
+
+* webinterface,
+* bulk download: http, ftp, rsync
+
 # Allas
 
 * access
