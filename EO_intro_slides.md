@@ -145,4 +145,30 @@ Radiometric - Spectral - Temporal - Spatial/Geometric
 # Python/R/Julia/Matlab,...
 
 
+# A few common EO processing steps
 
+<div class="column">
+
+**Optical multispectral**
+
+* atmospheric correction
+    -> Sen2cor, FORCE, ...
+* cloud identification and masking
+    -> FORCE, SNAP, ...
+* calculation of (vegetation) indices
+    -> raster calculator/band math/ map algebra: QGIS, SNAP, Python (rasterio, numpy),... 
+* zonal statistics 
+    -> QGIS, Python (rasterstats),...
+* ...
+
+</div>
+
+<div class="column">
+
+**RADAR**
+
+* Calibration
+* Terrain Correction
+* ...
+
+</div>
