@@ -12,11 +12,6 @@ title: EO @ CSC
 * headquaters in Keilaniemi, Espoo
 * side offices and supercomputers in Kajaani
 
-# Geoportti and CSC
-
-* project partner
-* technical implementation
-* computing support
 
 # CSC services
 
@@ -42,20 +37,107 @@ title: EO @ CSC
 
 </div>
 
+\+ Sensitive Data (SD) services
 
-# Why use CSC resources?
+
+# Storing EO data
+
+Allas object storage
+
+* during project lifetime
+* CSC account and project required
+* access from other services and own computer
+* data is immutable
+* Maximum size for free: **200TB**
+
+[Allas and Geospatial data webinar](https://www.youtube.com/watch?v=mnFXe2-dJ_g)
+
+
+# Key to geocomputing
+
+<p align="center">
+  <img src="images/gui_to_script.png" width="50%">
+</p>
+
+
+# EO data processing and analysis
+
+![](images/puhti_pouta_table.png)
+
+
+# Pouta cloud
+
+* Virtual Machines
+* available on demand
+* under own administration
+* ideal for webserver / databases
+
+# Why use Puhti?
 
 When own computer is not enough:
 
 * Resource needs (time (> 2 hours), memory (> 8 GB), storage (> 50GB))
-**-> Outsource computations, keep own computer free**
+* prebuilt environments
+* parallelization
+* data availability (Paituli)
 
-* **Storing** and **sharing** data
-* **Server** needs -> cPouta
-* **Course computers** (same setup) -> Notebooks
-* It’s **free**! (for open science at Finnish university and state research institute users)
+**-> Outsource heavy computations, keep own computer free**
+
+* It’s **free**! (for open science at Finnish higher education and state research institutes)
+
+# Puhti supercomputer
+
+-> High Performance Computing
+
+Main differences to laptop:
+* memory and CPU(/GPU) availability
+* non-interactive
+* resource knowledge
+
+# Computing solutions - Puhti
 
 
+<p align="center">
+  <img src="images/puhti_overview.png" width="50%">
+</p>
+
+# Puhti webinterface 
+
+
+-> check your data, testing, code development, file management, quotas, apps
+
+[`puhti.csc.fi`](https://puhti.csc.fi)
+
+# Software and data
+
+[List of Applications in Docs](https://docs.csc.fi/apps/#geosciences)
+
+stored in modules, geoconda (Python, +)
+
+[List of Geoscience data sets available from CSC computing environment](https://docs.csc.fi/data/datasets/spatial-data-in-csc-computing-env/)
+
+
+# Common EO challenges
+
+* many tiles 
+-> "embarassingly parallel" -> Array jobs
+* huge "dataframes"
+-> dask(Python)/future(R)
+* data transfer
+-> Allas
+
+
+# Get access
+
+[Step by step instructions ](https://research.csc.fi/en/accounts-and-projects)
+
+* Account 
+* Project
+* Resources
+* Services
+* [Find your account and project information](my.csc.fi)
+* [Read the docs](https://docs.csc.fi)
+* check our [tutorials](https://docs.csc.fi/support/tutorials/) and [geocomputing examples](https://github.com/csc-training/geocomputing)
 
 # CSC expertise
 
@@ -72,105 +154,13 @@ When own computer is not enough:
 <div class="column">
 **\+ servicedesk@csc.fi**
 * Geoinformatics team
+* Data analytics and AI team
 * Storage team
 * Supercomputer team
 * Cloudcomputing team
 * Accounts team
 * ...
 </div>
-
-
-
-# Software and data
-
-[List of Applications in Docs](https://docs.csc.fi/apps/#geosciences)
-
-stored in modules, geoconda (Python, +), see previous talk 
-
-[List of Geoscience data sets available from CSC computing environment](https://docs.csc.fi/data/datasets/spatial-data-in-csc-computing-env/)
-
-see previous talk
-
-
-# Storage and sharing solutions 
-
-
-[`research.csc.fi/storage`](https://research.csc.fi/storage)
-[`paituli.csc.fi/`](https://paituli.csc.fi/)
-
-# Computing solutions - Puhti
-
-
-<p align="center">
-  <img src="images/puhti_overview.png" width="50%">
-</p>
-
-# Puhti webinterface demo
-
-
-[`puhti.csc.fi`](https://puhti.csc.fi)
-
-# Matlab
-
-Matlab parallel server (MPS)
-* Matlab on own computer with own license
-* parallel computing toolbox needed
-* CSC has serverside toolbox
-
-Limited also available on Puhti webinterface
-
-# Key to geocomputing
-
-Scripts!
--> also increases reproducibility
-
-# EO Big data
-
-5V's
--> parallelization!
-
-# Approaching parallelization
-
--> domain decomposition <X,Y,Z,T,V>
-
-* software with inbuilt support
-* parallelization within Python (dask, multiprocessing, joblib) /R (future, snow, foreach)
-* GNU parallel, array jobs,...
-
-# Common EO challenges
-
-* mapsheets/tiles 
--> "embarassingly parallel"
-* huge "dataframes"
--> dask
-* moving data
--> Allas
-
-# Data on Puhti/Allas
-
-* almost all Paituli data also on Puhti 
-(Q: what open public datasets would be interesting to have?)
-* Sentinel-2 over agricultural Finland, growing season public on Allas
-* direct access to Allas without download with some tools
-
-
-# Getting started
-
-* [Step by step instructions ](https://research.csc.fi/en/accounts-and-projects)
-* [Find your account and project information](my.csc.fi)
-
-* [Read the docs](https://docs.csc.fi)
-
-* check our [tutorials](https://docs.csc.fi/support/tutorials/) and [geocomputing examples](https://github.com/csc-training/geocomputing)
-
-  
-
-# Training
-
-* ['Using CSC environment efficiently' course](https://csc-training.github.io/csc-env-eff/)
-
--> follow our [training calendar](https://www.csc.fi/en/training#training-calendar)
-
 
 
 # How we can help
@@ -193,22 +183,46 @@ Scripts!
 **-> CSC as project partner / subcontractor**
 </div>
 
+# Training
 
-# Summary
+* ['Using CSC environment efficiently' course](https://csc-training.github.io/csc-env-eff/)
+* [18.05: Webinar - CSC´s generic services for storing, sharing and publishing data](https://ssl.eventilla.com/event/pEAl3)
+* [09.-10.06: Fundamentals of Machine Learning](https://ssl.eventilla.com/mlfundamentals)
+* [CSC geoinformatics training material](https://research.csc.fi/gis-learning-materials)
 
-Computing
-Storage
-Service/Help
-Training
+-> follow our [training calendar](https://www.csc.fi/en/training#training-calendar)
 
 
 # Geoinformatics team { .author } 
 
 | Kylli Ek
 | Samantha Wittke
+| Katri Tegel
 | CSC – IT Center for Science Ltd.
 
 giscoord@csc.fi
 
-![](theme/csc-2016/img/csc-identicon.png)
+![](images/geoportti.png)
 
+# Earth Observation Data Information extractor
+
+<div class="column">
+
+[Preprint](http://dx.doi.org/10.2139/ssrn.4067133), 
+[Gitlab](https://gitlab.com/fgi_nls/public/EODIE), 
+[Docs](https://eodie.readthedocs.io/)
+
+EODIE is a toolkit to extract object based timeseries information from Earth Observation data.
+
+* objects as polygons 
+* timeframe of interest 
+* features (eg vegetation indices) 
+ -> per polygon timeseries of the selected features over the timeframe of interest
+
+</div>
+
+<div class="column">
+
+![](images/EODIE_example.png)
+
+</div>
