@@ -30,6 +30,18 @@ theme: csc-2016
 * What would you like to get from this workshop?
 -> Mentimeter
 
+# Geoportti and CSC
+
+* Finnish research infrastructure
+* CSC is one of many project partners
+* technical implementation
+* computing support
+
+<p align="center">
+  <img src="images/geoportti.png" width="50%">
+</p>
+
+
 # Getting started using EO 
 
 1. What data are we talking about?
@@ -37,8 +49,6 @@ theme: csc-2016
 3. Where to get the data?
 4. How to get the data?
 5. Processing EO data
-
----
 
 # EO data 
 
@@ -85,7 +95,6 @@ Radiometric - Spectral - Temporal - Spatial/Geometric
 
 > Credit: NASA Earth Observatory images by Joshua Stevens, using Landsat data from the U.S. Geological Survey; NASA Earth Observatory
 
----
 
 # How to decide which data to use?
 
@@ -102,7 +111,6 @@ Radiometric - Spectral - Temporal - Spatial/Geometric
 * experience 
 * pre-processing needs
 
----
 
 # Where and how to get data?
 
@@ -134,7 +142,6 @@ Radiometric - Spectral - Temporal - Spatial/Geometric
 
 # Own suggestions
 
----
 
 # How to process the data?
 > general considerations, GUI vs CLI vs Python/R/Julia/Matlab/...

@@ -12,12 +12,6 @@ title: EO @ CSC
 * headquaters in Keilaniemi, Espoo
 * side offices and supercomputers in Kajaani
 
-# Geoportti and CSC
-
-* Finnish research infrastructure
-* CSC is one of many project partners
-* technical implementation
-* computing support
 
 # CSC services
 
