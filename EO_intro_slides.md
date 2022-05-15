@@ -1,7 +1,7 @@
 --- 
 title: Earth Observation user workshop
 subtitle: hybrid
-author: Eetu Jutila and Samantha Wittke
+author: Eetu Jutila (SYKE) and Samantha Wittke (CSC)
 date: 16.05.22
 lang: en
 theme: csc-2016
@@ -85,16 +85,12 @@ theme: csc-2016
 
 # Where and how to get data?
 
-* Many sources of EO data are covered in our tutorial
-* Costs and efficiency
-  * Web interface vs API
-  * Downloading vs virtual machine next to the data 
-* download vs data and processing platforms
-* what to consider when choosing a place to get data from?
-* What to consider when choosing a method to download data?
-* Own suggestions:
-    * good experience with ASF and batch scriptin using wget
-    * Sentinelsat Python package
+* Mosaics,   Markus Törmä (SYKE)
+* Geocubes,  Lassi Lehto (FGI/NLS)
+* FinHub, Mwaba Hiltunen (FMI)  
+* Paituli
+* Other data sources
+* Considerations
   
 # Mosaics
 
@@ -113,41 +109,74 @@ theme: csc-2016
 * includes historical versions of datasets
 * not limited to Finland
 
+# Other data sources
+* [Copernicus Open Acces Hub](https://scihub.copernicus.eu/)
+* [Earth Data NASA](https://search.earthdata.nasa.gov/search)
+* [USGS Earth Explorer](https://earthexplorer.usgs.gov/)
+* [Alaska Satellite Facility](https://search.asf.alaska.edu/#/)
+* https://www.geoportti.fi/data/find-and-get-data/
+* our tutorial
+
+
+# Download vs data and processing platforms
+  * Puhti, Google Earth Engine, AWS, Sentinel Hub, DIAS-services...
+  * setup
+  * costs
+  * efficiency
+  
+# What to consider when choosing a place to get data from?
+  * download speed
+  * download methods
+  * costs
+  * license
+
+# What to consider when choosing a method to download data?
+  * Web interface or another GUI
+    * visual checking
+    * search parameters
+  * API
+    * scripts
+    * file lists
+  
+# Own suggestions:
+
+* Search graphically
+* Download via script
+
 # How to process the data?
 
 * Graphical User Interfaces (GUI)
 * Command Line Interfaces (CLI)
 * own code: Python/R/Julia/Matlab/...
+  
 
 # GUI 
 
 * Good for testing and prototyping workflows and visualization of the results
 * Problems with reproducability
 * Possibility to create models/graphs and export them as scripts
-
 * Free and open source options: SNAP, QGIS, OrfeoToolbox...
 
 # CLI
 
 * No need to code
 * Manuals/documentation
-
 * Eg. GDAL, FORCE, SNAP GPT, OrfeoToolbox (OTB)
   
 # Python/R/Julia/Matlab,...
 
 * Flexibilty 
 * Reproductibility
+* Parallellization
 * Learning curve
 * Good community support and tutorials
+* Many different options and packages for EO
+* Acces to cloud computing 
 
-* Many different options and packages for EO 
-  
+
 # A few common EO processing steps
 
-<div class="column">
-
-**Optical multispectral**
+## Optical multispectral
 
 * atmospheric correction
     -> Sen2cor, FORCE, OTB, ...
@@ -157,24 +186,21 @@ theme: csc-2016
     -> raster calculator / band math / map algebra: QGIS, SNAP, Python (rasterio, numpy), R (sen2r), ... 
 * zonal statistics 
     -> QGIS, Python (rasterstats), ...
-* ...
 
-</div>
+# A few common EO processing steps
 
-<div class="column">
+## RADAR
 
-**RADAR**
-
-* Calibration
+* Radiometric Calibration
 * Terrain Correction
 * Inferometry
 * Polarimetry
 
--> SNAP, sarpy, ...
+-> SNAP, sarpy, OTB etc.
 
-</div>
+# A few common EO processing steps
 
-**any**
+## ANY
 
 * download
     -> Python (sentinelsat), R (sen2r), ...
