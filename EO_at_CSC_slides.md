@@ -72,10 +72,21 @@ Allas object storage
 
 # Pouta cloud
 
+<div class="column">
+
 * Virtual Machines
 * available on demand
 * under own administration
 * ideal for webserver / databases
+
+</div>
+
+<div class="column">
+<p align="center">
+  <img src="images/cloud.png" width="65%">
+</p>
+
+</div>
 
 # Why use Puhti?
 
