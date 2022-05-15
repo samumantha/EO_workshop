@@ -27,8 +27,8 @@ theme: csc-2016
 
 * Who are you?
 * What is your research about?
-* What would you like to get from this workshop?
--> Mentimeter
+* voluntary networking: add your email-address for others to contact you.
+-> www.menti.com; 2773 8461
 
 # Geoportti and CSC
 
@@ -50,9 +50,14 @@ theme: csc-2016
 4. How to get the data?
 5. Processing EO data
 
-# EO data 
+# What is your level of experience with...
 
-> Poll: what type of EO data have you used? (optical multispectral, hyperspectral, LiDAR, RADAR, none, specify)
+* optical EO
+* RADAR/SAR
+* other/general EO
+-> www.menti.com; 2773 8461
+
+# EO data 
 
 
 # EM Spectrum
@@ -62,6 +67,12 @@ theme: csc-2016
 </p>
 
 > Credit: NASA science
+
+# Bands
+
+<p align="center">
+  <img src="images/bands.png" width="50%">
+</p>
 
 # Sensors
 
@@ -120,8 +131,6 @@ Radiometric - Spectral - Temporal - Spatial/Geometric
 
 # FinHub
 
-# other "hubs"
-
 # Paituli
 
 [www.paituli.csc.fi](https://paituli.csc.fi)
@@ -162,11 +171,11 @@ Radiometric - Spectral - Temporal - Spatial/Geometric
 * atmospheric correction
     -> Sen2cor, FORCE, OTB, ...
 * cloud identification and masking
-    -> FORCE, SNAP, Python (s2cloudless), R (sen2r)...
+    -> FORCE, SNAP, Python (s2cloudless), R (sen2r), ...
 * calculation of (vegetation) indices
-    -> raster calculator/band math/ map algebra: QGIS, SNAP, Python (rasterio, numpy), R (sen2r)... 
+    -> raster calculator / band math / map algebra: QGIS, SNAP, Python (rasterio, numpy), R (sen2r), ... 
 * zonal statistics 
-    -> QGIS, Python (rasterstats),...
+    -> QGIS, Python (rasterstats), ...
 * ...
 
 </div>
