@@ -54,7 +54,7 @@ theme: csc-2016
 
 * optical EO
 * RADAR/SAR
-* other/general EO
+
 -> www.menti.com; 2773 8461
 
 
@@ -73,6 +73,15 @@ theme: csc-2016
 * experience 
 * pre-processing needs
 
+# What kind of EO data are you interested in?
+
+* optical multispectral
+* hyperspectral
+* RADAR/SAR
+* LiDAR
+* other
+
+-> www.menti.com; 2773 8461
 
 # Where and how to get data?
 
@@ -113,24 +122,27 @@ theme: csc-2016
 
 # GUI 
 
-* Free and open source options: SNAP, QGIS, OrfeoToolbox...
 * Good for testing and prototyping workflows and visualization of the results
 * Problems with reproducability
 * Possibility to create models/graphs and export them as scripts
 
+* Free and open source options: SNAP, QGIS, OrfeoToolbox...
+
 # CLI
 
-* Eg. GDAL, FORCE, SNAP GPT, OrfeoToolbox (OTB)
 * No need to code
 * Manuals/documentation
+
+* Eg. GDAL, FORCE, SNAP GPT, OrfeoToolbox (OTB)
   
 # Python/R/Julia/Matlab,...
 
-* Many different options and packages for EO 
 * Flexibilty 
 * Reproductibility
 * Learning curve
 * Good community support and tutorials
+
+* Many different options and packages for EO 
   
 # A few common EO processing steps
 
@@ -169,3 +181,7 @@ theme: csc-2016
     -> Python (sentinelsat), R (sen2r), ...
 * mosaicing
     -> Python (sen2mosaic, sen1mosaic), ...
+
+# What software do you use and for what?
+
+-> www.menti.com; 2773 8461
