@@ -1,4 +1,20 @@
+---
+lang: en
+theme: csc-2016
+title: Earth Observation @ CSC
+subtitle: Additional material
+date: 16.05.2022
+author: Samantha Wittke (CSC)
+---
+
+
+# What more are you interested in?
+
+-> www.menti.com; 2773 8461
+
 # EO data 
+
+Some important concepts in following slides
 
 # EM Spectrum
 
@@ -37,32 +53,42 @@
 
 Radiometric - Spectral - Temporal - Spatial/Geometric
 
- <div class="row">
-  <div class="column">
-    <img src="images/radiometric_resolution.png" style="width:40%">
-  </div>
-  <div class="column">
-    <img src="images/spatial_resolution.jpg" style="width:40%">
-  </div>
-</div> 
+<div class="column">
 
-> Credit: NASA Earth Observatory images by Joshua Stevens, using Landsat data from the U.S. Geological Survey; NASA Earth Observatory
+  <img src="images/radiometric_resolution.png" style="width:65%">
+
+  > Credit: NASA Earth Observatory images by Joshua Stevens, using Landsat data from the U.S. Geological Survey
+
+</div>
+
+<div class="column">
+
+  <img src="images/spatial_resolution.jpg" style="width:80%">
+
+  > Credit: NASA Earth Observatory
+
+</div>
+
 
 
 # Approaching parallelization
 
--> domain decomposition <X,Y,Z,T,V>
+-> domain decomposition (X,Y,Z,T,V)
+
+<br></br>
 
 * software with inbuilt support (--cores, --cpus,...)
-* parallelization within Python (dask, multiprocessing, joblib) /R (future, snow, foreach)
+* parallelization within Python (dask, multiprocessing, joblib) / R (future, snow, foreach)
 * GNU parallel, array jobs,...
 
 # Parallel Geospatial software
 <div class="column">
+
 * SAGA GIS (some tools)
 * ArcGIS Pro 
 * GRASS
 * SNAP 
+
 </div>
 
 <div class="column">
@@ -178,6 +204,8 @@ ePouta for sensitive data → more strict network rules
 
 **Access**
 
+<div class="column">
+
 **OGC webservices:**
 
 * WMS (maps, map image for viewing)
@@ -185,10 +213,14 @@ ePouta for sensitive data → more strict network rules
 * WFS (features; vector data)
 * WCS (coverage, raster data
 
+</div>
+<div class="column">
+
 **Download:**
 
 * webinterface,
 * bulk download: http, ftp, rsync
+</div>
 
 # Allas
 
@@ -200,9 +232,13 @@ ePouta for sensitive data → more strict network rules
 # Matlab
 
 Matlab parallel server (MPS)
+
 * Matlab on own computer with own license
 * parallel computing toolbox needed
 * CSC has serverside toolbox
+
+[
+https://docs.csc.fi/apps/matlab/#usage](https://docs.csc.fi/apps/matlab/#usage)
 
 Limited also available on Puhti webinterface
 
