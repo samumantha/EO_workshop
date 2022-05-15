@@ -1,10 +1,10 @@
 ---
 lang: en
 theme: csc-2016
-title: EO @ CSC
-subtitle: storage and computing
+title: Earth Observation @ CSC
+subtitle: Storage and computing services
 date: 16.05.2022
-author: Samantha Wittke
+author: Samantha Wittke (CSC)
 ---
 
 
@@ -49,13 +49,14 @@ Allas object storage
 * during project lifetime
 * CSC account and project required
 * access from other services and own computer
+* some tools can read directly from Allas
 * data is immutable
 * Maximum size for free: **200TB**
 
 [Allas and Geospatial data webinar](https://www.youtube.com/watch?v=mnFXe2-dJ_g)
 
 
-# Key to geocomputing
+# Key to efficient geocomputing
 
 <p align="center">
   <img src="images/gui_to_script.png" width="65%">
@@ -102,11 +103,9 @@ It’s **free**! (for open science at Finnish higher education and state researc
 
 # Puhti supercomputer
 
--> High Performance Computing
+**Main differences to laptop:**
 
-Main differences to laptop:
-
-* memory and CPU(/GPU) availability
+* memory and CPU(/GPU) availability (software needs to make use of this!)
 * non-interactive
 * resource knowledge
 
@@ -118,7 +117,6 @@ Main differences to laptop:
 </p>
 
 # Puhti webinterface 
-
 
 -> check your data, testing, code development, file management, quotas, apps
 
@@ -139,7 +137,7 @@ Main differences to laptop:
 * MatLab / Octave
 * Mapnik
 * OpenDroneMap
-* **Orfeo Toolbox**
+* **OrfeoToolbox**
 * PCL
 </div>
 <div class="column">
@@ -155,7 +153,19 @@ Main differences to laptop:
 
 # Python
 
+<div class="column">
+
 [Geoconda](https://docs.csc.fi/apps/geoconda/)
+
+</div>
+
+<div class="column">
+
+<p align="right">
+  <img src="images/python.jpg" width="20%">
+</p>
+
+</div>
 
 * about 600 packages
 * for raster, vector, pointcloud processing
@@ -170,15 +180,27 @@ You can also create own environment / install own software! -> [Tykky](https://d
 
 # R environment on Puhti
 
+<div class="column">
+
 * R and RStudio Server
 * 1300+ R packages
 * Pre-installed libraries / software required by R packages
 * Mathematics library for faster calculations (Intel® OneMKL)
 * TensorFlow (for using [the R Interface to Tensorflow](https://tensorflow.rstudio.com/))
 
+</div>
+
+<div class="column">
+
+<p align="right">
+  <img src="images/R.jpg" width="40%">
+</p>
+
+</div>
+
 # Data
 
-almost all data from Paituli on Puhti +
+almost all data from [Paituli](https://paituli.csc.fi) on Puhti +
 
 * SYKE open datasets
 * LUKE Multi-source national forest inventory
@@ -206,7 +228,6 @@ Sentinel-2 L2A (agricultural Finland, 2016-2021)
 * data transfer
 -> Allas
 
-
 # Get access
 
 [Step by step instructions ](https://research.csc.fi/en/accounts-and-projects)
@@ -220,7 +241,6 @@ Sentinel-2 L2A (agricultural Finland, 2016-2021)
 * check our [tutorials](https://docs.csc.fi/support/tutorials/) and [geocomputing examples](https://github.com/csc-training/geocomputing)
 
 # CSC expertise
-
 
 ...at your fingertips:
 
@@ -243,7 +263,6 @@ Sentinel-2 L2A (agricultural Finland, 2016-2021)
 * ...
 
 </div>
-
 
 # How we can help
 
@@ -271,6 +290,17 @@ Sentinel-2 L2A (agricultural Finland, 2016-2021)
 
 </p>
 
+# How you can help
+
+
+If you used any of our resources for your research, please acknowledge CSC and Geoportti in your publications, it is important for project continuation and funding reports. As an example, you can write:
+
+<p align="center">
+
+"The authors wish to thank CSC - IT Center for Science, Finland (urn:nbn:fi:research-infras-2016072531) and the Open Geospatial Information Infrastructure for Research (Geoportti, urn:nbn:fi:research-infras-2016072513) for computational resources and support".
+
+</p>
+
 # Training
 
 * ['Using CSC environment efficiently' course](https://csc-training.github.io/csc-env-eff/)
@@ -280,18 +310,26 @@ Sentinel-2 L2A (agricultural Finland, 2016-2021)
 
 -> follow our [training calendar](https://www.csc.fi/en/training#training-calendar)
 
+# Summary
 
-# Thank you for joining this workshop!
 
-**Geoinformatics team at CSC**
+<div class="column">
+Puhti is an excellent tool if you
 
-Kylli Ek | Samantha Wittke | Katri Tegel
+* need more computing power
+* don’t want to run long analyses on your personal computer
+* have a lot of data
+* are using data provided on Puhti/Allas in large quantities
+* are willing to use scripts and have some basic Linux skills
+* are willing to learn to use Puhti
+</div>
+<div class="column">
+Pouta is an excellent tool if you
 
-<br></br>
+* want to use databases and web-/mapservices
+* have linux server administration skills
+</div>
 
-<p align="center">
-  <img src="images/geoportti.png" width="50%">
-</p>
 
 # Earth Observation Data Information extractor
 

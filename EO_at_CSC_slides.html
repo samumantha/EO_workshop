@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <meta name="author" content="Samantha Wittke">
-  <title>EO @ CSC</title>
+  <meta name="author" content="Samantha Wittke (CSC)">
+  <title>Earth Observation @ CSC</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -29,9 +29,9 @@
     <div class="slides">
 
 <section class="slide level1 title-slide" data-background-size="contain" data-background="theme/csc-2016/img/title-en.png">
-  <h1>EO @ CSC</h1>
-  <p>storage and computing</p>
-  <p>Samantha Wittke, 16.05.2022</p>
+  <h1>Earth Observation @ CSC</h1>
+  <p>Storage and computing services</p>
+  <p>Samantha Wittke (CSC), 16.05.2022</p>
 </section>
 
 <section id="csc" class="slide level1" data-background-size="contain">
@@ -73,13 +73,14 @@
 <li>during project lifetime</li>
 <li>CSC account and project required</li>
 <li>access from other services and own computer</li>
+<li>some tools can read directly from Allas</li>
 <li>data is immutable</li>
 <li>Maximum size for free: <strong>200TB</strong></li>
 </ul>
 <p><a href="https://www.youtube.com/watch?v=mnFXe2-dJ_g">Allas and Geospatial data webinar</a></p>
 </section>
-<section id="key-to-geocomputing" class="slide level1" data-background-size="contain">
-<h1>Key to geocomputing</h1>
+<section id="key-to-efficient-geocomputing" class="slide level1" data-background-size="contain">
+<h1>Key to efficient geocomputing</h1>
 <p align="center">
 <img src="images/gui_to_script.png" width="65%">
 </p>
@@ -120,10 +121,9 @@
 </section>
 <section id="puhti-supercomputer" class="slide level1" data-background-size="contain">
 <h1>Puhti supercomputer</h1>
-<p>-&gt; High Performance Computing</p>
-<p>Main differences to laptop:</p>
+<p><strong>Main differences to laptop:</strong></p>
 <ul>
-<li>memory and CPU(/GPU) availability</li>
+<li>memory and CPU(/GPU) availability (software needs to make use of this!)</li>
 <li>non-interactive</li>
 <li>resource knowledge</li>
 </ul>
@@ -153,7 +153,7 @@
 <li>MatLab / Octave</li>
 <li>Mapnik</li>
 <li>OpenDroneMap</li>
-<li><strong>Orfeo Toolbox</strong></li>
+<li><strong>OrfeoToolbox</strong></li>
 <li>PCL</li>
 </ul>
 </div>
@@ -172,7 +172,14 @@
 </section>
 <section id="python" class="slide level1" data-background-size="contain">
 <h1>Python</h1>
+<div class="column">
 <p><a href="https://docs.csc.fi/apps/geoconda/">Geoconda</a></p>
+</div>
+<div class="column">
+<p align="right">
+<img src="images/python.jpg" width="20%">
+</p>
+</div>
 <ul>
 <li>about 600 packages</li>
 <li>for raster, vector, pointcloud processing</li>
@@ -186,6 +193,7 @@
 </section>
 <section id="r-environment-on-puhti" class="slide level1" data-background-size="contain">
 <h1>R environment on Puhti</h1>
+<div class="column">
 <ul>
 <li>R and RStudio Server</li>
 <li>1300+ R packages</li>
@@ -193,10 +201,16 @@
 <li>Mathematics library for faster calculations (Intel® OneMKL)</li>
 <li>TensorFlow (for using <a href="https://tensorflow.rstudio.com/">the R Interface to Tensorflow</a>)</li>
 </ul>
+</div>
+<div class="column">
+<p align="right">
+<img src="images/R.jpg" width="40%">
+</p>
+</div>
 </section>
 <section id="data" class="slide level1" data-background-size="contain">
 <h1>Data</h1>
-<p>almost all data from Paituli +</p>
+<p>almost all data from <a href="https://paituli.csc.fi">Paituli</a> on Puhti +</p>
 <ul>
 <li>SYKE open datasets</li>
 <li>LUKE Multi-source national forest inventory</li>
@@ -271,7 +285,14 @@
 <p><strong>-&gt; CSC as project partner / subcontractor</strong></p>
 </div>
 <p>
-<a href="https://docs.csc.fi/support/support-howto/">Speed up your request</a>
+<p><a href="https://docs.csc.fi/support/support-howto/">Speed up your request</a></p>
+</p>
+</section>
+<section id="how-you-can-help" class="slide level1" data-background-size="contain">
+<h1>How you can help</h1>
+<p>If you used any of our resources for your research, please acknowledge CSC and Geoportti in your publications, it is important for project continuation and funding reports. As an example, you can write:</p>
+<p align="center">
+<p>&quot;The authors wish to thank CSC - IT Center for Science, Finland (urn:nbn:fi:research-infras-2016072531) and the Open Geospatial Information Infrastructure for Research (Geoportti, urn:nbn:fi:research-infras-2016072513) for computational resources and support&quot;.</p>
 </p>
 </section>
 <section id="training" class="slide level1" data-background-size="contain">
@@ -283,6 +304,27 @@
 <li><a href="https://research.csc.fi/gis-learning-materials">CSC geoinformatics training material</a></li>
 </ul>
 <p>-&gt; follow our <a href="https://www.csc.fi/en/training#training-calendar">training calendar</a></p>
+</section>
+<section id="summary" class="slide level1" data-background-size="contain">
+<h1>Summary</h1>
+<div class="column">
+<p>Puhti is an excellent tool if you</p>
+<ul>
+<li>need more computing power</li>
+<li>don’t want to run long analyses on your personal computer</li>
+<li>have a lot of data</li>
+<li>are using data provided on Puhti/Allas in large quantities</li>
+<li>are willing to use scripts and have some basic Linux skills</li>
+<li>are willing to learn to use Puhti</li>
+</ul>
+</div>
+<div class="column">
+<p>Pouta is an excellent tool if you</p>
+<ul>
+<li>want to use databases and web-/mapservices</li>
+<li>have linux server administration skills</li>
+</ul>
+</div>
 </section>
 <section id="thank-you-for-joining-this-workshop" class="slide level1" data-background-size="contain">
 <h1>Thank you for joining this workshop!</h1>

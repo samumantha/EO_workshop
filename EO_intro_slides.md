@@ -57,6 +57,22 @@ theme: csc-2016
 
 -> www.menti.com; 2773 8461
 
+# EO tutorial draft
+
+<p align="center">
+
+  [https://hackmd.io/@GeospatialCSC/EO_tutorial](https://hackmd.io/@GeospatialCSC/EO_tutorial)
+
+</p>
+
+# EO data
+
+<p align="center">
+  <img src="images/fusion.jpg" width="50%">
+</p>
+
+> Credit: ESA Phi lab
+
 
 # How to decide which data to use?
 
@@ -94,9 +110,15 @@ theme: csc-2016
   
 # Mosaics
 
+Markus Törmä (SYKE)
+
 # Geocubes
 
+Lassi Lehto (FGI/NLS)
+
 # FinHub
+
+Mwaba Hiltunen (FMI) 
 
 # Paituli
 
@@ -110,58 +132,63 @@ theme: csc-2016
 * not limited to Finland
 
 # Other data sources
+
 * [Copernicus Open Acces Hub](https://scihub.copernicus.eu/)
 * [Earth Data NASA](https://search.earthdata.nasa.gov/search)
 * [USGS Earth Explorer](https://earthexplorer.usgs.gov/)
 * [Alaska Satellite Facility](https://search.asf.alaska.edu/#/)
 * https://www.geoportti.fi/data/find-and-get-data/
-* our tutorial
+* our [tutorial](https://hackmd.io/@GeospatialCSC/EO_tutorial)
 
 
 # Download vs data and processing platforms
-  * Puhti, Google Earth Engine, AWS, Sentinel Hub, DIAS-services...
-  * setup
-  * costs
-  * efficiency
+
+* Puhti, Google Earth Engine, AWS, Sentinel Hub, DIAS-services...
+* setup
+* costs
+* efficiency
   
 # What to consider when choosing a place to get data from?
-  * download speed
-  * download methods
-  * costs
-  * license
+
+* download speed
+* download methods
+* costs
+* license
 
 # What to consider when choosing a method to download data?
-  * Web interface or another GUI
-    * visual checking
-    * search parameters
-  * API
-    * scripts
-    * file lists
-  
-# Own suggestions:
 
-* Search graphically
+* Web interface or another GUI
+  * visual checking
+  * search parameters
+* API
+  * scripts
+  * file lists
+  
+# Our suggestion
+
+* Search in web interface
 * Download via script
+* sentinelsat (Python)
 
 # How to process the data?
 
 * Graphical User Interfaces (GUI)
 * Command Line Interfaces (CLI)
 * own code: Python/R/Julia/Matlab/...
-  
 
 # GUI 
 
 * Good for testing and prototyping workflows and visualization of the results
 * Problems with reproducability
 * Possibility to create models/graphs and export them as scripts
-* Free and open source options: SNAP, QGIS, OrfeoToolbox...
+* Free and open source options: SNAP, QGIS, OrfeoToolbox (OTB), ...
 
 # CLI
 
-* No need to code
+* No need to code (but it helps)
 * Manuals/documentation
-* Eg. GDAL, FORCE, SNAP GPT, OrfeoToolbox (OTB)
+* Acces to super- and cloud- computing 
+* Eg. GDAL, FORCE, SNAP GPT, OrfeoToolbox (OTB), ...
   
 # Python/R/Julia/Matlab,...
 
@@ -171,7 +198,7 @@ theme: csc-2016
 * Learning curve
 * Good community support and tutorials
 * Many different options and packages for EO
-* Acces to cloud computing 
+* Acces to super- and cloud- computing 
 
 
 # A few common EO processing steps
@@ -200,7 +227,7 @@ theme: csc-2016
 
 # A few common EO processing steps
 
-## ANY
+## Any
 
 * download
     -> Python (sentinelsat), R (sen2r), ...
