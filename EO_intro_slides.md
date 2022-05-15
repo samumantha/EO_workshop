@@ -58,8 +58,6 @@ theme: csc-2016
 -> www.menti.com; 2773 8461
 
 
-
-
 # How to decide which data to use?
 
 **What information is needed?**
@@ -77,6 +75,7 @@ theme: csc-2016
 
 
 # Where and how to get data?
+
 * Many sources of EO data are covered in our tutorial
 * Costs and efficiency
   * Web interface vs API
@@ -107,7 +106,10 @@ theme: csc-2016
 * not limited to Finland
 
 # How to process the data?
-> general considerations, GUI vs CLI vs Python/R/Julia/Matlab/...
+
+* Graphical User Interfaces (GUI)
+* Command Line Interfaces (CLI)
+* own code: Python/R/Julia/Matlab/...
 
 # GUI 
 
@@ -157,7 +159,7 @@ theme: csc-2016
 * Inferometry
 * Polarimetry
 
-SNAP, sarpy
+-> SNAP, sarpy, ...
 
 </div>
 
