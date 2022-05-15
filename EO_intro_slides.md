@@ -57,54 +57,7 @@ theme: csc-2016
 * other/general EO
 -> www.menti.com; 2773 8461
 
-# EO data 
 
-
-# EM Spectrum
-
-<p align="center">
-  <img src="images/EMS-Introduction_0.jpeg" width="50%">
-</p>
-
-> Credit: NASA science
-
-# Bands
-
-<p align="center">
-  <img src="images/bands.png" width="50%">
-</p>
-
-# Sensors
-
-<p align="center">
-  <img src="images/activePassive.png" width="50%">
-</p>
-
-> Credit: NASA science
-
-# Optical vs RADAR
-
-<p align="center">
-  <img src="images/fusion.jpg" width="50%">
-</p>
-
-> Credit: ESA Phi lab
-
-
-# Resolution
-
-Radiometric - Spectral - Temporal - Spatial/Geometric
-
- <div class="row">
-  <div class="column">
-    <img src="images/radiometric_resolution.png" style="width:40%">
-  </div>
-  <div class="column">
-    <img src="images/spatial_resolution.jpg" style="width:40%">
-  </div>
-</div> 
-
-> Credit: NASA Earth Observatory images by Joshua Stevens, using Landsat data from the U.S. Geological Survey; NASA Earth Observatory
 
 
 # How to decide which data to use?
