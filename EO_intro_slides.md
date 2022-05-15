@@ -124,7 +124,18 @@ Radiometric - Spectral - Temporal - Spatial/Geometric
 
 
 # Where and how to get data?
-
+* Many sources of EO data are covered in our tutorial
+* Costs and efficiency
+  * Web interface vs API
+  * Downloading vs virtual machine next to the data 
+* download vs data and processing platforms
+* what to consider when choosing a place to get data from?
+* What to consider when choosing a method to download data?
+* Own suggestions:
+    * good experience with ASF and batch scriptin using wget
+    * Sentinelsat Python package
+  
+  
 # Mosaics
 
 # Geocubes
@@ -142,26 +153,30 @@ Radiometric - Spectral - Temporal - Spatial/Geometric
 * includes historical versions of datasets
 * not limited to Finland
 
-
-# download vs data and processing platforms
-
-# What to consider when choosing a place to get data from?
-
-# What to consider when choosing a method to download data?
-
-# Own suggestions
-
-
 # How to process the data?
 > general considerations, GUI vs CLI vs Python/R/Julia/Matlab/...
 
-# GUI
+# GUI 
+
+* Free and open source options: SNAP, QGIS, OrfeoToolbox...
+* Good for testing and prototyping workflows and visualization of the results
+* Problems with reproducability
+* Possibility to create models/graphs and export them as scripts
 
 # CLI
 
+* Eg. GDAL, FORCE, SNAP GPT, OrfeoToolbox (OTB)
+* No need to code
+* Manuals/documentation
+  
 # Python/R/Julia/Matlab,...
 
-
+* Many different options and packages for EO 
+* Flexibilty 
+* Reproductibility
+* Learning curve
+* Good community support and tutorials
+  
 # A few common EO processing steps
 
 <div class="column">
@@ -186,7 +201,10 @@ Radiometric - Spectral - Temporal - Spatial/Geometric
 
 * Calibration
 * Terrain Correction
-* ...
+* Inferometry
+* Polarimetry
+
+SNAP, sarpy
 
 </div>
 
