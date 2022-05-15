@@ -1,6 +1,6 @@
 --- 
 title: Earth Observation user workshop
-subtitle: online
+subtitle: hybrid
 author: Eetu Jutila and Samantha Wittke
 date: 16.05.22
 lang: en

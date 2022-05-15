@@ -1,7 +1,10 @@
 ---
 lang: en
-theme: csc-2019
+theme: csc-2016
 title: EO @ CSC
+subtitle: storage and computing
+date: 16.05.2022
+author: Samantha Wittke
 ---
 
 
@@ -12,7 +15,6 @@ title: EO @ CSC
 * headquaters in Keilaniemi, Espoo
 * side offices and supercomputers in Kajaani
 
-
 # CSC services
 
 [`research.csc.fi/en/service-catalog`](https://research.csc.fi/en/service-catalog)
@@ -22,7 +24,7 @@ title: EO @ CSC
 
   - cPouta / ePouta
   - Puhti / Mahti / LUMI
-  - Notebooks
+  - CSC Notebooks
   - Rahti
 
 </div>
@@ -56,13 +58,16 @@ Allas object storage
 # Key to geocomputing
 
 <p align="center">
-  <img src="images/gui_to_script.png" width="50%">
+  <img src="images/gui_to_script.png" width="65%">
 </p>
 
 
 # EO data processing and analysis
 
-![](images/puhti_pouta_table.png)
+<p align="center">
+  <img src="images/puhti_pouta_table.png" width="65%">
+</p>
+
 
 
 # Pouta cloud
@@ -83,13 +88,14 @@ When own computer is not enough:
 
 **-> Outsource heavy computations, keep own computer free**
 
-* It’s **free**! (for open science at Finnish higher education and state research institutes)
+It’s **free**! (for open science at Finnish higher education and state research institutes)
 
 # Puhti supercomputer
 
 -> High Performance Computing
 
 Main differences to laptop:
+
 * memory and CPU(/GPU) availability
 * non-interactive
 * resource knowledge
@@ -108,18 +114,82 @@ Main differences to laptop:
 
 [`puhti.csc.fi`](https://puhti.csc.fi)
 
-# Software and data
+<p align="center">
+  <img src="images/puhti_webinterface.png" width="50%">
+</p>
+
+# Software
 
 [List of Applications in Docs](https://docs.csc.fi/apps/#geosciences)
 
-stored in modules, geoconda (Python, +)
+<div class="column">
+* **FORCE & SPLITS**
+* **GDAL / OGR**
+* LasTools 
+* MatLab / Octave
+* Mapnik
+* OpenDroneMap
+* **Orfeo Toolbox**
+* PCL
+</div>
+<div class="column">
+* PDAL
+* CloudCompare
+* **QGIS**
+* SagaGIS
+* **SNAP, Sen2cor**
+* **WhiteboxTools**
+* Zonation
+* ...
+</div>
+
+# Python
+
+[Geoconda](https://docs.csc.fi/apps/geoconda/)
+
+* about 600 packages
+* for raster, vector, pointcloud processing
+* \+ scikit and other data science packages
+
+other modules:
+
+* Deep learning: [tensorflow](https://docs.csc.fi/apps/tensorflow/), [pytorch](https://docs.csc.fi/apps/pytorch/)
+-> have geopandas, rasterio
+
+You can also create own environment / install own software! -> [Tykky](https://docs.csc.fi/computing/containers/tykky/)
+
+# R environment on Puhti
+
+* R and RStudio Server
+* 1300+ R packages
+* Pre-installed libraries / software required by R packages
+* Mathematics library for faster calculations (Intel® OneMKL)
+* TensorFlow (for using [the R Interface to Tensorflow](https://tensorflow.rstudio.com/))
+
+# Data
+
+almost all data from Paituli +
+
+* SYKE open datasets
+* LUKE Multi-source national forest inventory
+* NLS Virtual rasters for DEMs
+
+-> '/appl/data/geo'
+
+Sentinel-2 L2A (agricultural Finland, 2016-2021)
+
+-> [Allas](https://a3s.fi/sentinel-readme/README.txt)
+
 
 [List of Geoscience data sets available from CSC computing environment](https://docs.csc.fi/data/datasets/spatial-data-in-csc-computing-env/)
 
+# What data would you be interested to have available on Puhti/Allas?
+
+-> www.menti.com; 2773 8461
 
 # Common EO challenges
 
-* many tiles 
+* many tiles, same process
 -> "embarassingly parallel" -> Array jobs
 * huge "dataframes"
 -> dask(Python)/future(R)
@@ -153,6 +223,7 @@ stored in modules, geoconda (Python, +)
 
 <div class="column">
 **\+ servicedesk@csc.fi**
+
 * Geoinformatics team
 * Data analytics and AI team
 * Storage team
@@ -160,6 +231,7 @@ stored in modules, geoconda (Python, +)
 * Cloudcomputing team
 * Accounts team
 * ...
+
 </div>
 
 
@@ -176,12 +248,16 @@ stored in modules, geoconda (Python, +)
 </div>
 
 <div class="column">
-[Speed up your request](https://docs.csc.fi/support/support-howto/)
+
 
 * Setting up pipelines, product provision, R&D, ...
 
 **-> CSC as project partner / subcontractor**
 </div>
+
+<p>
+[Speed up your request](https://docs.csc.fi/support/support-howto/)
+</p>
 
 # Training
 
@@ -193,16 +269,17 @@ stored in modules, geoconda (Python, +)
 -> follow our [training calendar](https://www.csc.fi/en/training#training-calendar)
 
 
-# Geoinformatics team { .author } 
+# Thank you for joining this workshop!
 
-| Kylli Ek
-| Samantha Wittke
-| Katri Tegel
-| CSC – IT Center for Science Ltd.
+**Geoinformatics team at CSC**
 
-giscoord@csc.fi
+Kylli Ek | Samantha Wittke | Katri Tegel
 
-![](images/geoportti.png)
+<br></br>
+
+<p align="center">
+  <img src="images/geoportti.png" width="50%">
+</p>
 
 # Earth Observation Data Information extractor
 
