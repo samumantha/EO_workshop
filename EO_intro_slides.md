@@ -32,15 +32,15 @@ theme: csc-2016
 
 # Geoportti and CSC
 
-* Finnish research infrastructure
-* CSC is one of many project partners
-* technical implementation
-* computing support
 
 <p align="center">
   <img src="images/geoportti.png" width="50%">
 </p>
 
+* Finnish research infrastructure
+* CSC is one of many project partners
+* technical implementation
+* computing support
 
 # Getting started using EO 
 
@@ -95,7 +95,6 @@ theme: csc-2016
 * Own suggestions:
     * good experience with ASF and batch scriptin using wget
     * Sentinelsat Python package
-  
   
 # Mosaics
 
