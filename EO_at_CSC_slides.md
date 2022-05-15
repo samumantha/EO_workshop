@@ -69,7 +69,6 @@ Allas object storage
 </p>
 
 
-
 # Pouta cloud
 
 <div class="column">
@@ -179,7 +178,7 @@ You can also create own environment / install own software! -> [Tykky](https://d
 
 # Data
 
-almost all data from Paituli +
+almost all data from Paituli on Puhti +
 
 * SYKE open datasets
 * LUKE Multi-source national forest inventory
@@ -191,8 +190,8 @@ Sentinel-2 L2A (agricultural Finland, 2016-2021)
 
 -> [Allas](https://a3s.fi/sentinel-readme/README.txt)
 
-
 [List of Geoscience data sets available from CSC computing environment](https://docs.csc.fi/data/datasets/spatial-data-in-csc-computing-env/)
+
 
 # What data would you be interested to have available on Puhti/Allas?
 
@@ -267,7 +266,9 @@ Sentinel-2 L2A (agricultural Finland, 2016-2021)
 </div>
 
 <p>
+
 [Speed up your request](https://docs.csc.fi/support/support-howto/)
+
 </p>
 
 # Training
