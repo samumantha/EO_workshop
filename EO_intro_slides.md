@@ -13,7 +13,7 @@ theme: csc-2016
 * Many presentations, but please ask questions
 * Mentimeter: www.menti.com; 2773 8461
 * Accessibility in hybrid event
-* Slides: https://a3s.fi/gis-workshops/22_EO_workshop
+* Slides: https://a3s.fi/gis-workshops/22_EO_workshop/EO_intro_slides.pdf , https://a3s.fi/gis-workshops/22_EO_workshop/EO_at_CSC_slides.pdf
 
 # Today
 
@@ -37,10 +37,11 @@ theme: csc-2016
   <img src="images/geoportti.png" width="50%">
 </p>
 
-* Finnish research infrastructure
+* Finnish research infrastructure for geospatial research
 * CSC is one of many project partners
 * technical implementation
 * computing support
+* Geoportti webportal: [www.geoportti.fi](https://geoportti.fi)
 
 # Getting started using EO 
 
@@ -101,8 +102,8 @@ theme: csc-2016
 
 # Where and how to get data?
 
-* Mosaics,   Markus Törmä (SYKE)
-* Geocubes,  Lassi Lehto (FGI/NLS)
+* Mosaics, Markus Törmä (SYKE)
+* Geocubes, Lassi Lehto (FGI/NLS)
 * FinHub, Mwaba Hiltunen (FMI)  
 * Paituli
 * Other data sources
@@ -137,36 +138,36 @@ Mwaba Hiltunen (FMI)
 * [Earth Data NASA](https://search.earthdata.nasa.gov/search)
 * [USGS Earth Explorer](https://earthexplorer.usgs.gov/)
 * [Alaska Satellite Facility](https://search.asf.alaska.edu/#/)
-* https://www.geoportti.fi/data/find-and-get-data/
-* our [tutorial](https://hackmd.io/@GeospatialCSC/EO_tutorial)
+* List at [Geoportti](https://www.geoportti.fi/data/find-and-get-data/)
+* our [EO tutorial](https://hackmd.io/@GeospatialCSC/EO_tutorial)
 
 
 # Download vs data and processing platforms
 
-* Puhti, Google Earth Engine, AWS, Sentinel Hub, DIAS-services...
+* Puhti, Google Earth Engine (GEE), Amazon Web Services (AWS), Sentinel Hub, DIAS-services, ...
 * setup
 * costs
 * efficiency
+* availability
   
 # What to consider when choosing a place to get data from?
 
-* download speed
 * download methods
 * costs
 * license
 
 # What to consider when choosing a method to download data?
 
-* Web interface or another GUI
+* Web interface or other Graphical User Interfaces (GUI)
   * visual checking
   * search parameters
-* API
+* Application Programming Interfaces (API)
   * scripts
   * file lists
   
 # Our suggestion
 
-* Search in web interface
+* Search in web interface 
 * Download via script
 * sentinelsat (Python)
 
@@ -176,14 +177,14 @@ Mwaba Hiltunen (FMI)
 * Command Line Interfaces (CLI)
 * own code: Python/R/Julia/Matlab/...
 
-# GUI 
+# Graphical User Interface - GUI 
 
 * Good for testing and prototyping workflows and visualization of the results
 * Problems with reproducability
 * Possibility to create models/graphs and export them as scripts
 * Free and open source options: SNAP, QGIS, OrfeoToolbox (OTB), ...
 
-# CLI
+# Command Line Interface - CLI
 
 * No need to code (but it helps)
 * Manuals/documentation
@@ -198,7 +199,7 @@ Mwaba Hiltunen (FMI)
 * Learning curve
 * Good community support and tutorials
 * Many different options and packages for EO
-* Acces to super- and cloud- computing 
+* Access to super- and cloud- computing 
 
 
 # A few common EO processing steps
